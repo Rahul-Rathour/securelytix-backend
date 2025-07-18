@@ -19,7 +19,7 @@ This is the backend server for the Securelytix login system built with **Node.js
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/securelytix.git
+git clone https://github.com/Rahul-Rathour/securelytix-backend.git
 cd securelytix/backend
 ```
 
