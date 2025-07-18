@@ -7,8 +7,15 @@ dotenv.config();
 
 const app = express();
 
+const corsOptions = {
+  origin: "https://securelytix-frontend.vercel.app",
+  methods: ["GET", "POST", "PUT", "DELETE"],
+  credentials: true
+};
 
-app.use(cors());
+// ✅ Apply CORS globally
+app.use(cors(corsOptions));
+// app.use(cors());
 app.use(express.json());
 
 // Routes
