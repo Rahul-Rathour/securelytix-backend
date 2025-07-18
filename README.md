@@ -25,4 +25,5 @@ cd securelytix/backend
 
 ### 2. .env setup
 ```
-REACT_APP_BASE_URL=http://localhost:5000
+MONGO_URI = mongodb://localhost:27017/securelytix
+PORT=5000
